@@ -18,25 +18,66 @@ migrate_working_dir/
 *.iws
 .idea/
 /.vscode/
+pubspec.lock
 
 # Flutter/Dart/Pub related
-.metadata
+**/.metadata
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+build/
 
 # Windows specific
 windows/flutter/
+windows/build/
+windows/CMakeLists.txt
+windows/runner/
+windows/generated_plugin_registrant.cc
 
-# macOS/Linux specific
-macos/Flutter/ephemeral/
+# Linux specific
+linux/build/
 linux/flutter/
-ios/Flutter/Generated.xcconfig
+linux/CMakeLists.txt
+linux/main.cc
+
+# macOS specific
+macos/Flutter/ephemeral/
+macos/build/
+macos/CMakeLists.txt
+
+# iOS specific
+ios/.generated/
+ios/.swiftpm/
+ios/build/
+ios/.dart_tool/
 ios/.symlinks/
 ios/Pods/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/local.properties
+
+# Web (si no has personalizado `index.html`)
+web/
+
+# Web (si has modificado `index.html`, ignora solo archivos generados)
+web/assets/
+web/canvaskit/
+web/flutter.js
+web/flutter_service_worker.js
+web/main.dart.js
+web/main.dart.js.map
+web/favicon.png
+web/icons/
 
 # Symbolication related
 app.*.symbols
@@ -45,9 +86,9 @@ app.*.symbols
 app.*.map.json
 
 # Android build artifacts
-/android/app/debug
-/android/app/profile
-/android/app/release
+android/app/debug
+android/app/profile
+android/app/release
 
 # Firebase (si usas Firebase en tu proyecto)
 android/app/google-services.json
