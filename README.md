@@ -1,6 +1,6 @@
 # primera_app
 
-A new Flutter project.
+Una Aplicación sencilla, para aprender como hacer menus en Flutter
 
 ## Getting Started
 
