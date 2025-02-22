@@ -1,0 +1,180 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE-related (IntelliJ, Android Studio, VS Code)
+*.iml
+*.ipr
+*.iws
+.idea/
+/.vscode/
+pubspec.lock
+
+# Flutter/Dart/Pub related
+**/.metadata
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Windows specific
+windows/flutter/
+windows/build/
+windows/CMakeLists.txt
+windows/runner/
+windows/generated_plugin_registrant.cc
+
+# Linux specific
+linux/build/
+linux/flutter/
+linux/CMakeLists.txt
+linux/main.cc
+
+# macOS specific
+macos/Flutter/ephemeral/
+macos/build/
+macos/CMakeLists.txt
+
+# iOS specific
+ios/.generated/
+ios/.swiftpm/
+ios/build/
+ios/.dart_tool/
+ios/.symlinks/
+ios/Pods/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/local.properties
+
+# Web (si no has personalizado `index.html`)
+web/
+
+# Web (si has modificado `index.html`, ignora solo archivos generados)
+web/assets/
+web/canvaskit/
+web/flutter.js
+web/flutter_service_worker.js
+web/main.dart.js
+web/main.dart.js.map
+web/favicon.png
+web/icons/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts
+android/app/debug
+android/app/profile
+android/app/release
+
+# Firebase (si usas Firebase en tu proyecto)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+
+# Android (archivos generados)
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/.idea/
+android/local.properties
+android/gradle/wrapper/gradle-wrapper.properties
+android/app/src/debug/AndroidManifest.xml
+android/app/src/main/AndroidManifest.xml
+android/app/src/main/res/
+android/app/src/profile/AndroidManifest.xml
+android/app/src/main/kotlin/com/example/
+android/settings.gradle.kts
+android/build.gradle.kts
+
+# iOS (archivos generados)
+ios/.generated/
+ios/.swiftpm/
+ios/.symlinks/
+ios/Pods/
+ios/.idea/
+ios/build/
+ios/Flutter/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/
+ios/RunnerTests/
+ios/Runner/Assets.xcassets/
+ios/Runner/Base.lproj/
+ios/Runner/Info.plist
+ios/Runner/Runner-Bridging-Header.h
+ios/Runner/AppDelegate.swift
+
+# Linux (archivos generados)
+linux/.gitignore
+linux/build/
+linux/flutter/
+linux/CMakeLists.txt
+linux/runner/
+
+# macOS (archivos generados)
+macos/.gitignore
+macos/Flutter/
+macos/build/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/
+macos/RunnerTests/
+macos/Runner/Configs/
+macos/Runner/Info.plist
+macos/Runner/Base.lproj/
+macos/Runner/Assets.xcassets/
+
+# Windows (archivos generados)
+windows/.gitignore
+windows/build/
+windows/flutter/
+windows/CMakeLists.txt
+windows/runner/
+
+# Web (archivos generados)
+web/favicon.png
+web/icons/
+web/manifest.json
+web/flutter.js
+web/flutter_service_worker.js
+web/main.dart.js
+web/main.dart.js.map
+web/assets/
+android/.gitignore
+android/gradle.properties
+android/app/build.gradle.kts
+ios/.gitignore
+macos/Runner/AppDelegate.swift
+macos/Runner/DebugProfile.entitlements
+macos/Runner/MainFlutterWindow.swift
+macos/Runner/Release.entitlements
+android/gradlew
+android/gradlew.bat
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+android/gradle/wrapper/gradle-wrapper.jar
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+analysis_options.yaml
